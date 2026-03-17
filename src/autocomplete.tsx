@@ -69,7 +69,7 @@ const Autocomplete = () => {
             {filteredOptions.map((option) => (
               <div
                 key={option}
-                onClick={() => updateValue(option)}
+                onClick={updateValue(option)}
                 className="dropdown-item"
               >
                 {option}
